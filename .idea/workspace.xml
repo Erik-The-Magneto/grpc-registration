@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af600342-2cd5-4a43-bade-7e544818583f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/com/example/calculator/CalculatorApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/com/example/calculator/rpc/SumGrpcServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/com/example/calculator/service/CalculatorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microsv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note.tx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protobuf/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protobuf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protobuf/proto/caculator.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/com/example/registration/RegistrationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/com/example/registration/rpc/RegistrationGrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/java/com/example/registration/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration/src/test/java/com/example/registration/RegistrationApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/model/LoginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/model/LoginRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/service/CalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/example/web/service/RegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OaGb4c4mjm3Tj0JCEBcNermJUy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/drjoy_services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "78d96932bd4bbbca181fbb8956f79d93",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="CalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="calculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.calculator.CalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="registration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.registration.RegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af600342-2cd5-4a43-bade-7e544818583f" name="Changes" comment="" />
+      <created>1681791350001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681791350001</updated>
+      <workItem from="1681791351150" duration="1444000" />
+      <workItem from="1681792814171" duration="404000" />
+      <workItem from="1681798007194" duration="580000" />
+      <workItem from="1681800157300" duration="4740000" />
+      <workItem from="1681806617730" duration="4823000" />
+      <workItem from="1681852269841" duration="4621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

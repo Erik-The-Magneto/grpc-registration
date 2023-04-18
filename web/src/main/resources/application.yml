@@ -1,0 +1,11 @@
+grpc:
+  client:
+    calculator:
+      address: static://localhost:9090
+      negotiationType: plaintext
+
+    registration:
+      address: static://localhost:9092
+      negotiationType: plaintext
+server:
+  port: 8080

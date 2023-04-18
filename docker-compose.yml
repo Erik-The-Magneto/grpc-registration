@@ -1,0 +1,30 @@
+version: '3'
+services:
+
+  proto-service:
+    image: proto
+    build: .
+    networks:
+      - my-network
+
+  calculator-service:
+    image: calculator
+    build: .
+    ports:
+      - "9090:9090"
+    networks:
+      - my-network
+
+  web-service:
+    image: web
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
+
+

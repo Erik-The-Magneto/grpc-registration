@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.example.autogen.grpc.calculator";
+option java_multiple_files = true;
+
+package calculator;
+
+service Sum {
+  rpc GetSum(SumRequest) returns (SumResponse);
+}
+message SumRequest {
+  repeated int32 numbers = 1;
+}
+
+message SumResponse {
+  int32 sum = 1;
+}

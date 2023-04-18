@@ -1,0 +1,12 @@
+.gitignore
+microsv2.iml
+.idea
+
+web/target
+
+protobuf/target
+protobuf/src
+
+calculator/target
+
+registration/target
