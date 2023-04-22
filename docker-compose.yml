@@ -3,7 +3,7 @@ services:
 
   calculator-service:
     image: calculator
-    build: .
+    build: ./calculator
     ports:
       - "9090:9090"
     networks:
@@ -11,7 +11,7 @@ services:
 
   web-service:
     image: web
-    build: .
+    build: ./web
     ports:
       - "8080:8080"
     networks:

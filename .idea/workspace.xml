@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af600342-2cd5-4a43-bade-7e544818583f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/Caculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/SumGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/SumRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/SumRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/SumResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/calculator/SumResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/LoginRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/LoginResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/RegistrationGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/main/java/com/example/autogen/grpc/registration/RegistrationOuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microsv2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microsv2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,5 +140,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
