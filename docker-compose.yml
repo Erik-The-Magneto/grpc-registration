@@ -9,6 +9,14 @@ services:
     networks:
       - my-network
 
+  registration:
+    image: registration
+    build: ./registration
+    ports:
+      - "9092:9092"
+    networks:
+      - my-network
+
   web-service:
     image: web
     build: ./web
