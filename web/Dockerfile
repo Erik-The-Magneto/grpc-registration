@@ -4,4 +4,4 @@ ADD target/*.jar web
 
 ENTRYPOINT ["java", "-jar", "/web.jar"]
 
-EXPOSE 8080
+EXPOSE 8888
