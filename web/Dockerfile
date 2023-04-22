@@ -1,4 +1,4 @@
 FROM java:8u111-jdk-alpine
-ADD target/*.jar web
-ENTRYPOINT ["java", "-jar", "/web.jar"]
+
+ENTRYPOINT ["java", "-jar", "/web-0.0.1-SNAPSHOT.jar"]
 EXPOSE 8888

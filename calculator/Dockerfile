@@ -1,4 +1,4 @@
 FROM java:8u111-jdk-alpine
-ADD target/*.jar calculator
-ENTRYPOINT ["java", "-jar", "/calculator.jar"]
+
+ENTRYPOINT ["java", "-jar", "/calculator-0.0.1-SNAPSHOT.jar"]
 EXPOSE 9090
