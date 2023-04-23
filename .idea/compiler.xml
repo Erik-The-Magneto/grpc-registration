@@ -10,14 +10,13 @@
         <module name="protobuf" />
         <module name="registration" />
         <module name="web" />
-        <module name="microservices" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="calculator" options="-parameters" />
-      <module name="microservices" options="-parameters" />
+      <module name="microservices" options="" />
       <module name="protobuf" options="" />
       <module name="registration" options="-parameters" />
       <module name="web" options="-parameters" />

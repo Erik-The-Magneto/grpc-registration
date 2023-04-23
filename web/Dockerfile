@@ -1,4 +1,3 @@
 FROM java:8u111-jdk-alpine
-
-ENTRYPOINT ["java", "-jar", "target/web-0.0.1-SNAPSHOT.jar"]
-EXPOSE 8888
+COPY target/web-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java", "-jar", "app.jar"]

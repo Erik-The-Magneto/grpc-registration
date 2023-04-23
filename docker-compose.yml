@@ -2,31 +2,34 @@ version: '3'
 services:
 
   calculator-service:
-    image: calculator
+    image: duclv1132/calculator
     build: ./calculator
+    hostname: localhost
     ports:
       - "9090:9090"
     networks:
-      - my-network
+      - chatapp-network
 
   registration:
-    image: registration
+    image: duclv1132/registration
     build: ./registration
+    hostname: localhost
     ports:
       - "9092:9092"
     networks:
-      - my-network
+      - chatapp-network
 
   web-service:
-    image: web
+    image: duclv1132/web
     build: ./web
+    hostname: localhost
     ports:
       - "8888:8888"
     networks:
-      - my-network
+      - chatapp-network
 
 networks:
-  my-network:
-    driver: bridge
+  chatapp-network:
+    external: true
 
 
