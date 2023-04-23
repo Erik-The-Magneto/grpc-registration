@@ -1,11 +1,10 @@
-grpc:
-  client:
-    calculator:
-      address: static://localhost:9090
-      negotiationType: plaintext
-
-    registration:
-      address: static://localhost:9092
-      negotiationType: plaintext
+#grpc:
+#  client:
+#    calculator:
+#      address: calculator:9090
+#      negotiationType: plaintext
+#    registration:
+#      address: registration:9092
+#      negotiationType: plaintext
 server:
   port: 8888

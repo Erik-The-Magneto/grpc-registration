@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  calculator-service:
+  calculator:
     image: duclv1132/calculator
     build: ./calculator
     networks:
@@ -17,13 +17,25 @@ services:
     ports:
       - "9092:9092"
 
-  web-service:
+  web:
     image: duclv1132/web
     networks:
       - abcxyz
     build: ./web
     ports:
       - "8888:8888"
+    depends_on:
+      - student
+      - registration
+      - calculator
+
+  student:
+    image: duclv1132/student
+    networks:
+      - abcxyz
+    build: ./student
+    ports:
+      - "8083:8083"
 
 networks:
   abcxyz:

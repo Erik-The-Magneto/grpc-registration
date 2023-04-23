@@ -13,6 +13,7 @@
         <module>calculator</module>
         <module>registration</module>
         <module>web</module>
+        <module>student</module>
     </modules>
 
     <groupId>com.example</groupId>
