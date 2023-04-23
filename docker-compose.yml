@@ -1,35 +1,31 @@
 version: '3'
-services:
 
+services:
   calculator-service:
     image: duclv1132/calculator
     build: ./calculator
-    hostname: localhost
+    networks:
+      - abcxyz
     ports:
       - "9090:9090"
-    networks:
-      - chatapp-network
 
   registration:
     image: duclv1132/registration
     build: ./registration
-    hostname: localhost
+    networks:
+      - abcxyz
     ports:
       - "9092:9092"
-    networks:
-      - chatapp-network
 
   web-service:
     image: duclv1132/web
+    networks:
+      - abcxyz
     build: ./web
-    hostname: localhost
     ports:
       - "8888:8888"
-    networks:
-      - chatapp-network
 
 networks:
-  chatapp-network:
+  abcxyz:
     external: true
-
 
