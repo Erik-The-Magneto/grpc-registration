@@ -3,9 +3,11 @@ version: '3'
 services:
   calculator:
     image: duclv1132/calculator
-    build: ./calculator
+    build:
+      context: ./calculator
+      dockerfile: Doggerfile
     networks:
-      - abcxyz
+      [ "abcxyz", "cdeijk" ]
     ports:
       - "9090:9090"
 
@@ -22,8 +24,10 @@ services:
     networks:
       - abcxyz
     build: ./web
+#    8192 : port app dang ky voi docker
+#    8888: port docker xuat ra cho client goi vao
     ports:
-      - "8888:8888"
+      - "8888:8192"
     depends_on:
       - student
       - registration
@@ -39,5 +43,7 @@ services:
 
 networks:
   abcxyz:
+    external: true
+  cdeijk:
     external: true
 

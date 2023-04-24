@@ -7,4 +7,4 @@ grpc:
       address: registration:9092
       negotiationType: plaintext
 server:
-  port: 8888
+  port: 8192
