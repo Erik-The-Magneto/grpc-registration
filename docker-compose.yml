@@ -27,7 +27,7 @@ services:
 #    8192 : port app dang ky voi docker
 #    8888: port docker xuat ra cho client goi vao
     ports:
-      - "8888:8192"
+      - "8888:8888"
     depends_on:
       - student
       - registration
