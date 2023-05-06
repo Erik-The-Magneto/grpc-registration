@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/registration/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/student/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
       </list>
     </option>
   </component>
